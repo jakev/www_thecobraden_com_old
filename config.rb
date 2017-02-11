@@ -97,11 +97,10 @@ after_build do |builder|
     File.rename 'build/.htaccess.apache', 'build/.htaccess'
 end
 
-#activate :deploy do |deploy|
-#  deploy.deploy_method   = :ftp
-#  deploy.host            = 'ftp.example.com'
-#  deploy.path            = '/srv/www/site'
-#  deploy.user            = 'tvaughan'
-#  deploy.password        = 'secret'
-#end
-
+activate :deploy do |deploy|
+  deploy.deploy_method   = :ftp
+  deploy.host            = 'www.thecobraden.com'
+  deploy.path            = 'thecobraden.com'
+  deploy.user            = ENV["USERNAME"]
+  deploy.password        = ENV["PASSWORD"]
+end
