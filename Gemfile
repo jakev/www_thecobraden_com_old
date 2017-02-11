@@ -17,4 +17,4 @@ gem 'bourbon'
 gem 'neat'
 gem 'bitters'
 gem 'redcarpet'
-gem "jquery-middleman"
+gem 'jquery-middleman'
