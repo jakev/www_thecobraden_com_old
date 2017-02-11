@@ -3,17 +3,33 @@ ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
+  @extend %default-ul;
+
+  &%default-ul {
+    list-style-type: disc;
+    font-size: 0.9em;
+    margin-bottom: $small-spacing;
+    margin-left: 15px;
+    padding-left: $base-spacing;
+  }
+
+  &%default-ol {
+    list-style-type: decimal;
+    margin-bottom: $small-spacing;
+    padding-left: $base-spacing;
+  }
 }
 
 dl {
-  margin: 0;
-}
+  margin-bottom: $small-spacing;
 
-dt {
-  font-weight: 600;
-  margin: 0;
-}
+  dt {
+    font-weight: bold;
+    margin-top: $small-spacing;
+  }
 
-dd {
-  margin: 0;
+  dd {
+    margin: 0;
+  }
 }

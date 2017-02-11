@@ -1,18 +1,50 @@
 body {
+  font-feature-settings: "kern", "liga", "pnum";
+  -webkit-font-smoothing: antialiased;
   color: $base-font-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
 }
 
-h1,
-h2,
-h3,
-h4,
+h1 {
+  border-bottom: 1px solid rgba(42, 159, 214, 0.2);
+  color: $cobraden-green;
+  font-family: $heading-font-family;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+h2 {
+  color: $medium-gray;
+  font-family: $heading-font-family;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+h3 {
+  color: $cobraden-green;
+  font-family: $heading-font-family;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+h4 {
+  color: white;
+  font-family: $heading-font-family;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
 h5,
 h6 {
   font-family: $heading-font-family;
-  font-size: modular-scale(1);
+  font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
 }

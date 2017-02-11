@@ -3,11 +3,15 @@ $medium-screen: 600px;
 $large-screen: 900px;
 
 // Typography
-$base-font-family: $font-stack-system;
-$heading-font-family: $base-font-family;
+$base-font-family: 'Verdana';
+$heading-font-family: 'Cuprum', $base-font-family;
 
 // Font Sizes
-$base-font-size: 1em;
+$base-font-size: .9em;
+
+// Font Weights
+$font-weight-bold: 700;
+$font-weight-normal: 400;
 
 // Line height
 $base-line-height: 1.5;
@@ -20,13 +24,16 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$blue: #1565c0;
+$blue: #2a9fd6;
+$cobraden-green: #a4c639;
 $dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #ddd;
+$medium-gray: #777;
+$light-gray: #ccc;
+$off-white: #eee;
 
 // Font Colors
-$base-font-color: $dark-gray;
+$base-background-color: #000000;
+$base-font-color: $light-gray;
 $action-color: $blue;
 
 // Border
@@ -34,7 +41,6 @@ $base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$base-background-color: #fff;
 $secondary-background-color: tint($base-border-color, 75%);
 
 // Forms

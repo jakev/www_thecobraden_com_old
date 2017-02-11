@@ -1,0 +1,120 @@
+.scroll-on-page {
+  ///////////////////////////////////////////////////////////////////////////////////
+  $base-line-height: 1.5em !default;
+  $base-font-size: .9em;
+  $base-spacing: 0.9em;
+  $base-accent-color: #477DCA !default;
+  $base-link-color: $blue;
+  $large-screen: em(860) !default;
+  $base-font-color: $dark-gray !default;
+  $base-hover-color: white;
+
+  p {
+    color: $base-font-color;
+    line-height: $base-line-height;
+  }
+
+  a {
+    color: $base-link-color;
+    text-decoration: none;
+  }
+  //////////////////////////////////////////////////////////////////////////////////
+
+  display: inline-block;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  padding: $base-spacing;
+
+  aside {
+    @include media($large-screen) {
+      @include span-columns(1 of 5);
+      margin-top: 24pt;
+      border-right: 1px solid transparentize($base-link-color, 0.8);
+
+    }
+  }
+
+  .nav-heading {
+    color: $cobraden-green;
+    border-bottom: 1px solid transparentize($base-link-color, 0.8);
+    font-weight: bold;
+    font-family: $heading-font-family;
+    font-size: ($base-font-size * 2);
+  }
+
+  .page-link {
+
+    font-weight: bold;
+    //border-bottom: 1px solid transparentize($base-link-color, 0.8);
+    font-size: ($base-font-size * 1.1);
+    display: block;
+    margin-right: $base-spacing;
+    outline: none;
+    color: white;
+
+    &:last-child {
+      margin-bottom: $base-spacing;
+    }
+
+    &:focus,
+    &:hover {
+      color: $light-gray;
+    }
+  }
+
+  .nav-link {
+
+    //font-weight: bold;
+    //border-bottom: 1px solid transparentize($base-link-color, 0.8);
+    display: block;
+    margin-right: $base-spacing;
+    outline: none;
+    padding-left: 7px;
+    &:last-child {
+      margin-bottom: $base-spacing;
+    }
+
+    &:focus,
+    &:hover {
+      color: $base-hover-color;
+    }
+  }
+  .nav-sublink {
+
+    color: $light-gray;
+    //border-bottom: 1px solid transparentize($base-link-color, 0.8);
+    font-size: ($base-font-size * .90);
+    display: block;
+    margin-right: $base-spacing;
+    outline: none;
+    padding-left: 15px;
+
+    &:last-child {
+      margin-bottom: $base-spacing;
+    }
+
+    &:focus,
+    &:hover {
+      color: $base-hover-color;
+    }
+  }
+
+  article {
+//    h4 {
+//      margin: 0 0 0.5em 0;
+//    }
+
+    section p:last-of-type {
+      margin-bottom: 2em; 
+    }
+
+    @include media($large-screen) {
+      @include span-columns(4 of 5);
+    }
+  }
+}
+.highlight {
+  border-top: 1px solid rgba(42, 159, 214, 0.2);
+  border-bottom: 1px solid rgba(42, 159, 214, 0.2);
+  padding-bottom: 3px;
+}
