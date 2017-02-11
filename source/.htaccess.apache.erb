@@ -1,0 +1,4 @@
+# ERROR DOCUMENTS
+<% data.htaccess.errors.each do |code, document| %>
+ErrorDocument <%= code %> <%= document %>
+<% end %>

@@ -64,6 +64,12 @@ set :markdown_engine, :redcarpet
 
 page "/*", :layout => :posting
 
+# disable layout for .htaccess
+page ".htaccess.apache", :layout => false
+
+# Error pages.
+page "/errors/401.html", :directory_index => false,
+                         :layout => :posting
 page "/errors/403.html", :directory_index => false,
                          :layout => :posting
 page "/errors/404.html", :directory_index => false,
@@ -88,4 +94,9 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+end
+
+# .htaccess rename after build
+after_build do
+  File.rename 'build/.htaccess.apache', 'build/.htaccess'
 end
