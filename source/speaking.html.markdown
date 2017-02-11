@@ -5,6 +5,7 @@ title: Public Appearances
 Here you may find materials from presentations that I have given in the past and upcoming events.
 
 ### 2016
+* BSides Denver (October 2016) - "Attacking the Core: Uncovering Vulnerabilities in Android System Services" \[[slides](/uploads/Valletta%20-%20BSides%20Denver%202016%20-%20Attacking%20the%20Core.pdf)\]
 * Bsides Nashville (April 2016) - "Put a Sock(et) in it: Understanding and Attacking Sockets on Android" \[[abstract](http://www.bsidesnash.org/cfp0/)\] \[[slides](/uploads/Valletta%20-%20BSides%20Nashville%202016%20-%20Put%20a%20Sock%28et%29%20in%20it.pdf)\] \[[video](https://www.youtube.com/watch?v=O1Z1nasF7vk)\]
 
 ### 2015
