@@ -47,10 +47,6 @@ end
 #   end
 # end
 
-set :css_dir, 'stylesheets'
-set :js_dir, 'javascripts'
-set :images_dir, 'images'
-
 activate :directory_indexes
 
 # Enable Markdown support.
@@ -62,18 +58,18 @@ set :markdown, :tables => true,
 
 set :markdown_engine, :redcarpet
 
-page "/*", :layout => :posting
+activate :sprockets
 
 # disable layout for .htaccess
 page ".htaccess.apache", :layout => false
 
 # Error pages.
 page "/errors/401.html", :directory_index => false,
-                         :layout => :posting
+                         :layout => "posting"
 page "/errors/403.html", :directory_index => false,
-                         :layout => :posting
+                         :layout => "posting"
 page "/errors/404.html", :directory_index => false,
-                         :layout => :posting
+                         :layout => "posting"
 
 # Build-specific configuration
 configure :build do
@@ -97,6 +93,15 @@ configure :build do
 end
 
 # .htaccess rename after build
-after_build do
-  File.rename 'build/.htaccess.apache', 'build/.htaccess'
+after_build do |builder| 
+    File.rename 'build/.htaccess.apache', 'build/.htaccess'
 end
+
+#activate :deploy do |deploy|
+#  deploy.deploy_method   = :ftp
+#  deploy.host            = 'ftp.example.com'
+#  deploy.path            = '/srv/www/site'
+#  deploy.user            = 'tvaughan'
+#  deploy.password        = 'secret'
+#end
+
