@@ -8,6 +8,9 @@ This website is a place for me to discuss and share some of the mobile security 
 
 ### Recent News
 
+#### February 11, 2017 - Modernizing Website
+After over a year since posting, the website is updated, but honestly it's not very different (if you're curious, check out the site [source](https://github.com/jakev/www_thecobraden_com)). If you've been watching the `dtf` project, you'll have seen over 200 commits to the "dev" branch. `dtf` 1.3.1 is coming!
+
 #### June 26, 2015 - Middleman Updates + dtf Documentation
 Finally another update.  I completely rewrote The Cobra Den, this time using [middleman](https://middlemanapp.com/).  It was quite the learning experience, and it's way past due!  Also, check out the new [dtf documentation](/projects/dtf/)!
 
