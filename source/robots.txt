@@ -3,3 +3,4 @@ Disallow: /stylesheets/
 Disallow: /errors/
 Disallow: /javascript/
 Disallow: /uploads/
+Disallow: /dtf-repos/
