@@ -2,8 +2,16 @@
 title: Public Appearances
 ---
 # Public Appearances
-Here you may find materials from presentations that I have given in the past and upcoming events.
 
+## Honorary Mentions
+* Android Security Acknowledgements (2016) \[[link](https://source.android.com/security/overview/acknowledgements)\]
+* Qualcomm Hall of Fame (2016) \[[link](https://www.qualcomm.com/company/product-security/hall-of-fame)\]
+* CodeAurora Hall of Fame (2016) \[[link](https://www.codeaurora.org/projects/security-advisories/hall-of-fame)\]
+
+## Publications
+* Exploiting CVE-2016-2060 on Qualcomm Devices (FireEye.com) \[[link](https://www.fireeye.com/blog/threat-research/2016/05/exploiting_cve-2016-.html)\]
+
+## Presentations / Workshops
 ### 2016
 * BSides Denver (October 2016) - "Attacking the Core: Uncovering Vulnerabilities in Android System Services" \[[slides](/uploads/Valletta%20-%20BSides%20Denver%202016%20-%20Attacking%20the%20Core.pdf)\]
 * Bsides Nashville (April 2016) - "Put a Sock(et) in it: Understanding and Attacking Sockets on Android" \[[abstract](http://www.bsidesnash.org/cfp0/)\] \[[slides](/uploads/Valletta%20-%20BSides%20Nashville%202016%20-%20Put%20a%20Sock%28et%29%20in%20it.pdf)\] \[[video](https://www.youtube.com/watch?v=O1Z1nasF7vk)\]
