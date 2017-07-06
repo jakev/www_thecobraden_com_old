@@ -8,8 +8,15 @@ title: Public Appearances
 * Qualcomm Hall of Fame (2016) \[[link](https://www.qualcomm.com/company/product-security/hall-of-fame)\]
 * CodeAurora Hall of Fame (2016) \[[link](https://www.codeaurora.org/projects/security-advisories/hall-of-fame)\]
 
+## Authored CVEs
+* CVE-2016-2060
+* CVE-2017-3748
+* CVE-2017-3749
+* CVE-2017-3750
+
 ## Publications
 * Exploiting CVE-2016-2060 on Qualcomm Devices (FireEye.com) \[[link](https://www.fireeye.com/blog/threat-research/2016/05/exploiting_cve-2016-.html)\]
+* Back That App Up: Gaining Root on the Lenovo Vibe (FireEye.com) \[[link](https://www.fireeye.com/blog/threat-research/2017/05/gaining-root-on-lenovo-vibe.html)\]
 
 ## Presentations / Workshops
 ### 2016
