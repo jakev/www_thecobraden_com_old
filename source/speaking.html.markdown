@@ -19,9 +19,12 @@ title: Public Appearances
 * Back That App Up: Gaining Root on the Lenovo Vibe (FireEye.com) \[[link](https://www.fireeye.com/blog/threat-research/2017/05/gaining-root-on-lenovo-vibe.html)\]
 
 ## Presentations / Workshops
+### 2017
+* ArcticCon 2017 (October, 2017) - "Navigating SEAndroid Trust Relationships: Exploitation Techniques for Modern Android Devices" \[[slides](/uploads/Valletta%20-%20ArcticCon%202017%20-%20Navigating%20SEAndroid%20Trust%20Relationships.pdf)\]
+
 ### 2016
-* BSides Denver (October 2016) - "Attacking the Core: Uncovering Vulnerabilities in Android System Services" \[[slides](/uploads/Valletta%20-%20BSides%20Denver%202016%20-%20Attacking%20the%20Core.pdf)\]
-* Bsides Nashville (April 2016) - "Put a Sock(et) in it: Understanding and Attacking Sockets on Android" \[[abstract](http://www.bsidesnash.org/cfp0/)\] \[[slides](/uploads/Valletta%20-%20BSides%20Nashville%202016%20-%20Put%20a%20Sock%28et%29%20in%20it.pdf)\] \[[video](https://www.youtube.com/watch?v=O1Z1nasF7vk)\]
+* BSides Denver (October, 2016) - "Attacking the Core: Uncovering Vulnerabilities in Android System Services" \[[slides](/uploads/Valletta%20-%20BSides%20Denver%202016%20-%20Attacking%20the%20Core.pdf)\]
+* Bsides Nashville (April, 2016) - "Put a Sock(et) in it: Understanding and Attacking Sockets on Android" \[[abstract](http://www.bsidesnash.org/cfp0/)\] \[[slides](/uploads/Valletta%20-%20BSides%20Nashville%202016%20-%20Put%20a%20Sock%28et%29%20in%20it.pdf)\] \[[video](https://www.youtube.com/watch?v=O1Z1nasF7vk)\]
 
 ### 2015
 * Blackhat Europe - Arsenal (November, 2015) - "Android Device Testing Framework v1.3" \[[abstract](https://www.blackhat.com/eu-15/arsenal.html#android-device-testing-framework-v13)\]
